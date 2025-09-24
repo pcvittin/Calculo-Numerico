@@ -69,7 +69,7 @@ double bissecao(double a, double b, double p, double tol, int ex){
     return 0.0;
 }
 
-double fposicao(double a, double b, double p, double tol, int ex){
+double fposicao(double a, double b, double p, double tol, int ex){//metodo da falsa posição
 
     int i = 1;
     double FA, FB, p_anterior = 0, c, FP;
@@ -104,3 +104,4 @@ double fposicao(double a, double b, double p, double tol, int ex){
     printf("O procedimento falhou apos %d interações", i);
     return 0.0;
 }
+
